@@ -9,7 +9,6 @@ COPY package*.json ./
 
 # Install project dependencies
 RUN npm install
-RUN mkdir ravi
 
 # Copy the rest of the application code to the container
 COPY . .
